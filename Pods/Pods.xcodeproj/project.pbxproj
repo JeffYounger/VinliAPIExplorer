@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ABE901FA11416D996E8813982B2C18 /* VLNotificationPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96743B6B5A62CB021F5F68BC439A1BC2 /* VLNotificationPager.m */; };
+		1354F304EC3E57F0A1678FF4FE3075C6 /* VLTelemetryMessagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = A891AE4D902CF3E0BA8582FB63BB1BB4 /* VLTelemetryMessagePager.m */; };
+		1481D571C6C291C0109CC82D9929DA16 /* VLTrip.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D55A916EF4327C06505119971D68BA4 /* VLTrip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1784A84E6C7F268C74BD8F7095048957 /* VinliBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E915AF3CE61BF016D08932A1AA298DA /* VinliBluetooth-dummy.m */; };
+		19D9BA86CA505B08052B09A81CCAF45E /* VLDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B2434BDD97BA62FEBD7DB02469FB35AE /* VLDevice.m */; };
+		1A2A77A7C2682952F727DC61BA833B01 /* VLUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 478F7D4E5CAC09901138721B869EF53C /* VLUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B6233D4380A5D9BC9DEDF0C0024B47F /* VLRadiusBoundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AB1402A21A6D82CF68E6937873D36 /* VLRadiusBoundary.m */; };
+		1CC140286BC90C8A3D748177A1B5F706 /* VLLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098FA1B9BEE37A5FC8B72A732603D6 /* VLLoginButton.m */; };
+		1D14129CF576C84CB0F4EA2F7C997FFC /* VNLDeviceObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = D91899BCE0A578DADBD7BAB5D70D8BB3 /* VNLDeviceObserving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC1E4E948CEB75519B9B3F7E5D1EEC9 /* VLSubscriptionPager.m in Sources */ = {isa = PBXBuildFile; fileRef = D31956168C343E32DC597DD2B1986DE0 /* VLSubscriptionPager.m */; };
+		20F391B466F69D75DC7D336D21251F5C /* VLEventPager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4883608D5C3ACD86651B66BB712D62 /* VLEventPager.m */; };
+		236093C9F81DB85500E9067A6449EF5B /* VLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD51DA4091FAAAA033179878E62AE1D /* VLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23772609A5A7B6161AF00786EBF89423 /* VLRulePager.h in Headers */ = {isa = PBXBuildFile; fileRef = A84AC68FE64CF37F1D5EB1156BA4B73C /* VLRulePager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25E413591A99BBD5261DD30433C0132A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */; };
+		26C38543D2EFCA93870F8209C101CDFE /* VLVehiclePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB50DADBEC33421E9D60EE0117720E6 /* VLVehiclePager.m */; };
+		2A5ACB6910CD0744F1787867B0FF8073 /* VLEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F73B1169FCB45E7F018FAEFFE532030 /* VLEvent.m */; };
+		2BFC2653A9170CBF31470AEFAB72D544 /* NSString+Random.h in Headers */ = {isa = PBXBuildFile; fileRef = F22144E82230B42E2A56FFA630935DC1 /* NSString+Random.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D995854CE4E4EE652FB0C284DF3FBE0 /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856B0A1DB63E34753697879023BB67F /* NSString+Random.m */; };
+		3172CDC707D711669CDAFF6A44DE40A3 /* VLLocationPager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2544AEDE7FF9E5190AAFCD2B6F8D67F /* VLLocationPager.m */; };
+		329597F7024328F7F1BC28B82E1C51A2 /* VLTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B52B1EF21E6711E28A35A051FB33EF8 /* VLTrip.m */; };
+		33F3E8A99FF780A6D95DB4E3F6651337 /* VLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD1386123D9BA77A739AB4752D22B6 /* VLLocation.m */; };
+		3636373FB4553A97C8A6216FBD6947E5 /* VLUrlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DE423222986C0AB8BEA1ACFD6BF7539C /* VLUrlParser.m */; };
+		37C107C46A5F46A4AB0525910081D9BB /* VLChronoPager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD80C4BBD67037327B8E5620BDDB9EE3 /* VLChronoPager.m */; };
+		37F9B06B3E744644D94DFC21ADEE188C /* VLSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = F959D579CA9806278262E3BF79C16104 /* VLSubscription.m */; };
+		3F71C061B57984BEA40E54C97D59B422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */; };
+		3FFE660484770E54EDBCF8CFF01FB2AA /* VNLDevicePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9025FF34678B8CB59C3085DA4D11D65D /* VNLDevicePickerViewController.m */; };
+		41EEB8F4213A37E9A426B3ED5B43B5FA /* VLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2509207B517FC94C57BA34ECDE3D65D /* VLSessionManager.m */; };
+		4227517D6085F290896414942686CC77 /* VLLocationPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD9351139C1027BB409A72C8A7E3D2F /* VLLocationPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4494CC4C6F3ECCC13E34D3B6882021FF /* VLSnapshotPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0491BBE6671FC7AB6C71AFBFBB96CF47 /* VLSnapshotPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C18E12330C4BAD3EE56E2E78B1D1FE /* VLPolygonBoundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B36A1EA3AC0FBD3544D834335EF19 /* VLPolygonBoundary.m */; };
+		474B894A65BF7755D02072C95DF4C609 /* JCDHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F983FE6FFABEBB35BA3CE76ADBBC83 /* JCDHTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48385338ADDCBBF423F0021C14D74C75 /* VLTelemetryMessagePager.h in Headers */ = {isa = PBXBuildFile; fileRef = DC382F9D2BBCFE272CCB636E0C196178 /* VLTelemetryMessagePager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483E0C6E51D7D2D7FB310010C60FBE09 /* VLBoundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF2BC70AC2BE3E8A8E6CF9C609170 /* VLBoundary.m */; };
+		4D291FFB3499AB3E7ED67C57A7B64EB3 /* VNLProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C08F5C0A93B8D080E2D50D949E306DE /* VNLProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E14C7E3802FA5AC61D0E2F2A148EE6F /* VLPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B25378AD675816C49D196D6A2720BC /* VLPager.m */; };
+		508706858D6F5D6C0AF5E4A2542835E2 /* VLRequestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B4666F2247F6C515886C9120081F3693 /* VLRequestHeader.m */; };
+		513DE5439BC3E0225C3A6FC0EB283287 /* VLRequestHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEB7B8B5C35EA52D8BCF6C39D8A6D8F /* VLRequestHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F6B2E6656E8AFB33E935479B241255 /* VNLProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C3331ED284CC1D041898F1C408D6A05A /* VNLProperties.m */; };
+		534C544B959BE06E2543FBB613EF37AD /* VLBoundary.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A596195A1733DFA4E559B5C7073FC8 /* VLBoundary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555D09A0A3B1C6EB7542AE0CDED64C31 /* VLOffsetPager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC90EA822A7ED859FDBEC304B8DEFB /* VLOffsetPager.m */; };
+		5642A76366D67BC14AE9D8223D6B6C93 /* VLLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 842F78A9230BC8CAC0F1CB5BFFC16462 /* VLLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0C7EB2861E805254CA5A2BA79283AA /* VLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272D313B0C3A2868C9F25F41580A8226 /* VLLoginViewController.m */; };
+		5EB2BA3C111AB371EF83863995E0A06F /* VLParametricBoundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2F2E0CA314D2B8887A1F55EABB2A99 /* VLParametricBoundary.m */; };
+		62E2C836F254466B699E85923BC52FD3 /* VLNotificationPager.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BF10D6E9EA18F86341B9DA3C8C768B /* VLNotificationPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C11943E52D5F1B3443928CCFB559DF /* VNLDevicePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C797231D87970B8C894641C878463E5 /* VNLDevicePickerTableViewCell.m */; };
+		65D057B7A3020BC0EC3AE390FCF4EB32 /* VLParametricBoundary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AAAE637B591626F121940CA7E0ACAE1 /* VLParametricBoundary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A4255D2863466AC8313AEC4E1781016 /* VNLPID.m in Sources */ = {isa = PBXBuildFile; fileRef = EF93464E7B90A7E0A362836273DD04FA /* VNLPID.m */; };
+		6CA8757A3A6CC4F20F3E6537647F72A9 /* JCDHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A27FCED355A216424BF274220AC782 /* JCDHTTPConnection.m */; };
+		7250F3CFF987FC78ED8CE4D41F1CD48E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */; };
+		76F506EECE429EFAA466FA38C9265626 /* VLTripPager.h in Headers */ = {isa = PBXBuildFile; fileRef = C42DBB129C9B17AF83276C5971698A20 /* VLTripPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7841D758091FA4215D8FD2E0CC70407C /* VLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0EE15E57132E3E6E6876A2D3B4F938 /* VLSession.m */; };
+		7F910E00413C53B97FE3CBB3F346905E /* VLDevicePager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D330A5B3E95A7086AC6EE1E0CF4741 /* VLDevicePager.m */; };
+		80A3E10FE124AAB11E281AF82B8152DB /* VNLDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC3CE692475E89BF9D8F38EDBC8F439 /* VNLDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84526B80B72178DA4D886243AF4ADEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */; };
+		87207A87FAE1580B3CBC4864E1D463D4 /* VLOffsetPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 174605D067DF7569FCDBFF7D5EAD1E1E /* VLOffsetPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0741F0595C445419659521D53CCCDA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		8F5FDE7A681AA9B1D7CD3C717E0B9E16 /* VNLDevicePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E80DD1D29879EA084DDAEC9027EEE050 /* VNLDevicePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD2FB718B3468D35539F225887A60B7 /* VLLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DA8178D1BF39D862341B803F90DEAB /* VLLoginButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E19BF8A0A2CF9C0AD08C39B348FB11 /* VNLDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BED2DE96B0923156583FA2857720FA /* VNLDeviceManager.m */; };
+		940F9F60013F5C69CC3CB54D17FF817B /* VLVehiclePager.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1C71BEB4F834F9B26AE26C0C354567 /* VLVehiclePager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		952D4E970BAB45CA001F18C918D7EAEE /* VLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F538A03E54F87B015027497B2A1B1974 /* VLUser.m */; };
+		96D0B26404FCFF3FABE9EFA312614D34 /* VLLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF80622856E925A8DDB29599533C880E /* VLLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F9119ED9F2183B7281B4632CD90B08 /* VLNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = D23F38C5BCEC94C0352AAFAA25CFA85B /* VLNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08EA1EB4E092ABA972C3D053D050EE3 /* VLPager.h in Headers */ = {isa = PBXBuildFile; fileRef = E139CF6F9A80FF7C8A76C6FFD8406552 /* VLPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A11CC9B79CAFC76B5F8E358BCFD10DEA /* VLVehicle.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E9110679C45B8C0A06F9A40E7E51CF /* VLVehicle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43AAEA2994D259B9DC3B7E07F453FF1 /* NSDictionary+NonNullable.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E33893D785F79BCCC52B7C72378E24 /* NSDictionary+NonNullable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53571446C5EF37500D8C92D42F82B9B /* VLSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB209DEB1DC3008B9F331C33DD920C3 /* VLSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8422685946AD6161FE4F2CA16256C4C /* VLDevicePager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF096EE16C3ED7D87A41E19EC6083915 /* VLDevicePager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A95CDD28BD4EAFF190A4DD5EBBCF9F83 /* VLVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2BB9560520337EF83522C7746B4B69 /* VLVehicle.m */; };
+		A9B3AC7F10863AE9C2B9959A671DAE89 /* VLSnapshotPager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F4ADD3FBB3BF6AABA6D95DC412F9C7 /* VLSnapshotPager.m */; };
+		AAB058B960B5B3DE4BACC3CE83AD75A2 /* VNLPID.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB12F4A46770B724BD60F4A73AA81CC /* VNLPID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC72441EE474616969A9517EB815CD7C /* VLChronoPager.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B46FEC46D700B922B2CC8C3DD53E33 /* VLChronoPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC8AD312F8D5A1F0A6F4A2F87218311 /* VinliBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = D95E39AD11813D58097285B831331645 /* VinliBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC8EF3901345DB9F14C1D1F82D1835D /* VLService.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4BB433CB0F13467DD9D70AB1BCE00 /* VLService.m */; };
+		AF8B93C347B20A889497D75EF6BC2396 /* VLSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D6136E81FB0443051B93B94038E1C9 /* VLSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF93859FB14CE8BDB747ACC91105D11A /* VLObjectRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E75ACFB2D02A9E4C86BDD957D7C35BD /* VLObjectRef.m */; };
+		AFE27EF5D9F67257ECF7C86D6E1F698A /* VLNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 2616AC92D81930CDDB20FAC7C65B41EE /* VLNotification.m */; };
+		B05849515C06DFD40ACE043F101A12BD /* VLTripPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D57076C79FF7F6813FEE56647AD3DD /* VLTripPager.m */; };
+		B27D0CB713C370E8D64286060C085CD7 /* VLObjectRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 50179878DD7FD6D50BD90DE226662465 /* VLObjectRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B317342B61CEB8A8EA0552CA8DCE15B2 /* VLUserCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 024365EF93CB90C26EF72F9998F9FC75 /* VLUserCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7C6F51FE280889DC8DE28BAC1EC252D /* VLTelemetryMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8B3DD9C4C33EB4C61B8DCA7B7F8E8 /* VLTelemetryMessage.m */; };
+		BE126A734CD2F5F80E3C65B1D332B0BA /* VLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DCB353D71774E2D1A08D8FDEF9A759 /* VLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C384FF1E2E51866AEB23860586A34F91 /* VNLDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58BBAA67989B857A606E5E710FCFE9 /* VNLDevice.m */; };
+		C4027EEE19D963F7F2C530B82DE2B5E6 /* VNLDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED57EECE3877012CDC5A975C263AABF /* VNLDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4F67668B86F425917B1131545913021 /* VLRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADBD8A834E1AAE99DE6BD6AE14E3DE6 /* VLRule.m */; };
+		CA29DDBCC0791507BF8EDDCD6E0CF047 /* VLSubscriptionPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF41193E06E6E5C83C708C4FA0A5EE2 /* VLSubscriptionPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D323772DECB534C67400B5FF95844955 /* VLRule.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3FF8A70F6F4F6356825B7BC188E3AE /* VLRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6DA21CF571ED9DCD2680BAEDD1762AE /* VLSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B85DE402EE885C79EB2B19808CD62371 /* VLSnapshot.m */; };
+		D9C15939FBFED969A0F1AE9E8A3FA359 /* VLRulePager.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D5B5CF8B2B1EF3440CD386CAD08B4 /* VLRulePager.m */; };
+		E8F1C705176C68101078DD3D43DBACE4 /* VLRadiusBoundary.h in Headers */ = {isa = PBXBuildFile; fileRef = C101230C197551E04B58580581F61DFF /* VLRadiusBoundary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3C0B14B3FF23658CE8250757C177915 /* VLUrlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 11AC74B2A461F7DC2A0FE5A2F86882CC /* VLUrlParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4290F7D88197F91A676CE0DA0D2559B /* VinliNet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B09BE33F3E42E0A6F99258FDC3FD5 /* VinliNet-dummy.m */; };
+		F5374C68C5E4DB03102003AB1A9E71E0 /* VLUserCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5BFDAC0B9ED1EFC090D92E27558904 /* VLUserCache.m */; };
+		F6C143ECAF07C1F58E32D5834492EF92 /* NSDictionary+NonNullable.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF47CD07A3BBD57271D6301CA8D10A6 /* NSDictionary+NonNullable.m */; };
+		F76947541FEBC0192044B8B47463DCC8 /* VNLDevicePickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BAEF56824741AE76813106E4141FDB /* VNLDevicePickerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C23605C3E70D6A270F227DC1574AAA /* VLTelemetryMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F222FD4258496EF9F679CCDDDBB7BCED /* VLTelemetryMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80FFF0BDBD6FF741B88348F2D1E1447 /* VLEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6C17AC9AC1D958427DC40A18B5E57B /* VLEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC1CB3EF988C7E6815B864DE2A94845 /* VLDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 32943B806A5DA689D76D2ADB726E92E1 /* VLDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7E80CDC985E5CA5AEC3A99AB94E685 /* VLPolygonBoundary.h in Headers */ = {isa = PBXBuildFile; fileRef = CA117A46DDEF5AE8652DF6F27D05DFBF /* VLPolygonBoundary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD15FBEFE4D68BB9486FEFB3214600AC /* VLService.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D843DEDD93EE6F845139999104C7A0 /* VLService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE373B9731139D9F50D7FC1D45961105 /* VLEventPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 858F7B5A3B75FCDB3B655AF82832D39A /* VLEventPager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF95090E5BC0B36D80E694ED5F8C676A /* VinliSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 938C0D8CACFAF3CC0F127F5A1F7F23CA /* VinliSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C37C747F8CDA84F7B9EB33C7CAB4E02A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F767B1B3C9FCFF89162C8A7AA286F62;
+			remoteInfo = VinliBluetooth;
+		};
+		C8785D0C788F576C52DB1FCB57CD9773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F803C2D02364541FF671A3A9398BF01A;
+			remoteInfo = VinliNet;
+		};
+		FD1D5C95C4E50AF726E94F92B5C34C1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F803C2D02364541FF671A3A9398BF01A;
+			remoteInfo = VinliNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024365EF93CB90C26EF72F9998F9FC75 /* VLUserCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLUserCache.h; path = VinliSDK/VLUserCache.h; sourceTree = "<group>"; };
+		0491BBE6671FC7AB6C71AFBFBB96CF47 /* VLSnapshotPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLSnapshotPager.h; path = VinliSDK/VLSnapshotPager.h; sourceTree = "<group>"; };
+		091AB1402A21A6D82CF68E6937873D36 /* VLRadiusBoundary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLRadiusBoundary.m; path = VinliSDK/VLRadiusBoundary.m; sourceTree = "<group>"; };
+		0E75ACFB2D02A9E4C86BDD957D7C35BD /* VLObjectRef.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLObjectRef.m; path = VinliSDK/VLObjectRef.m; sourceTree = "<group>"; };
+		0E915AF3CE61BF016D08932A1AA298DA /* VinliBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VinliBluetooth-dummy.m"; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		1106C75A37EB0013BB9C2A72B061C4B7 /* libVinliBluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVinliBluetooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AC74B2A461F7DC2A0FE5A2F86882CC /* VLUrlParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLUrlParser.h; path = VinliSDK/VLUrlParser.h; sourceTree = "<group>"; };
+		174605D067DF7569FCDBFF7D5EAD1E1E /* VLOffsetPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLOffsetPager.h; path = VinliSDK/VLOffsetPager.h; sourceTree = "<group>"; };
+		17D6136E81FB0443051B93B94038E1C9 /* VLSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLSnapshot.h; path = VinliSDK/VLSnapshot.h; sourceTree = "<group>"; };
+		1856B0A1DB63E34753697879023BB67F /* NSString+Random.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Random.m"; path = "VinliSDK/NSString+Random.m"; sourceTree = "<group>"; };
+		1F73B1169FCB45E7F018FAEFFE532030 /* VLEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLEvent.m; path = VinliSDK/VLEvent.m; sourceTree = "<group>"; };
+		2616AC92D81930CDDB20FAC7C65B41EE /* VLNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLNotification.m; path = VinliSDK/VLNotification.m; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		272D313B0C3A2868C9F25F41580A8226 /* VLLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLLoginViewController.m; path = VinliSDK/VLLoginViewController.m; sourceTree = "<group>"; };
+		287CA1CEFD9D5085BF824FD1C6B859BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E55E50F4E16BB909E2EDFAD8409FFE /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Contents.json; path = VinliBluetooth/UI/images.xcassets/icn_checkmark.imageset/Contents.json; sourceTree = "<group>"; };
+		2AAAE637B591626F121940CA7E0ACAE1 /* VLParametricBoundary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLParametricBoundary.h; path = VinliSDK/VLParametricBoundary.h; sourceTree = "<group>"; };
+		2FC3CE692475E89BF9D8F38EDBC8F439 /* VNLDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VNLDeviceManager.h; path = VinliBluetooth/VNLDeviceManager.h; sourceTree = "<group>"; };
+		32943B806A5DA689D76D2ADB726E92E1 /* VLDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLDevice.h; path = VinliSDK/VLDevice.h; sourceTree = "<group>"; };
+		32DCB353D71774E2D1A08D8FDEF9A759 /* VLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLSession.h; path = VinliSDK/VLSession.h; sourceTree = "<group>"; };
+		35AD1386123D9BA77A739AB4752D22B6 /* VLLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLLocation.m; path = VinliSDK/VLLocation.m; sourceTree = "<group>"; };
+		35B25378AD675816C49D196D6A2720BC /* VLPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLPager.m; path = VinliSDK/VLPager.m; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40A596195A1733DFA4E559B5C7073FC8 /* VLBoundary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLBoundary.h; path = VinliSDK/VLBoundary.h; sourceTree = "<group>"; };
+		41E33893D785F79BCCC52B7C72378E24 /* NSDictionary+NonNullable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+NonNullable.h"; path = "VinliSDK/NSDictionary+NonNullable.h"; sourceTree = "<group>"; };
+		45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		478F7D4E5CAC09901138721B869EF53C /* VLUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLUser.h; path = VinliSDK/VLUser.h; sourceTree = "<group>"; };
+		48063FD86DF2D471E0B176085DD0DF7D /* WhitneyHTF-Light.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "WhitneyHTF-Light.otf"; path = "VinliBluetooth/UI/WhitneyHTF-Light.otf"; sourceTree = "<group>"; };
+		4B2E112E235F3DC530BE469F95E257C5 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Contents.json; path = VinliBluetooth/UI/images.xcassets/icn_bluetooth.imageset/Contents.json; sourceTree = "<group>"; };
+		4C08F5C0A93B8D080E2D50D949E306DE /* VNLProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VNLProperties.h; path = VinliBluetooth/VNLProperties.h; sourceTree = "<group>"; };
+		4E6C17AC9AC1D958427DC40A18B5E57B /* VLEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLEvent.h; path = VinliSDK/VLEvent.h; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4ED57EECE3877012CDC5A975C263AABF /* VNLDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VNLDevice.h; path = VinliBluetooth/VNLDevice.h; sourceTree = "<group>"; };
+		50179878DD7FD6D50BD90DE226662465 /* VLObjectRef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLObjectRef.h; path = VinliSDK/VLObjectRef.h; sourceTree = "<group>"; };
+		56FEF2BC70AC2BE3E8A8E6CF9C609170 /* VLBoundary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLBoundary.m; path = VinliSDK/VLBoundary.m; sourceTree = "<group>"; };
+		5CB209DEB1DC3008B9F331C33DD920C3 /* VLSubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLSubscription.h; path = VinliSDK/VLSubscription.h; sourceTree = "<group>"; };
+		5EB50DADBEC33421E9D60EE0117720E6 /* VLVehiclePager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLVehiclePager.m; path = VinliSDK/VLVehiclePager.m; sourceTree = "<group>"; };
+		5FB12F4A46770B724BD60F4A73AA81CC /* VNLPID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VNLPID.h; path = VinliBluetooth/VNLPID.h; sourceTree = "<group>"; };
+		61A27FCED355A216424BF274220AC782 /* JCDHTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCDHTTPConnection.m; path = VinliSDK/JCDHTTPConnection.m; sourceTree = "<group>"; };
+		6428FBF530CCE36DD3DF15B6A4DC952C /* libVinliNet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVinliNet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D57076C79FF7F6813FEE56647AD3DD /* VLTripPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLTripPager.m; path = VinliSDK/VLTripPager.m; sourceTree = "<group>"; };
+		68A8CA1017ADEE82CBD11F4F0E0B76BF /* pids.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = pids.json; path = VinliBluetooth/pids.json; sourceTree = "<group>"; };
+		68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6AD9351139C1027BB409A72C8A7E3D2F /* VLLocationPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLLocationPager.h; path = VinliSDK/VLLocationPager.h; sourceTree = "<group>"; };
+		6C2F2E0CA314D2B8887A1F55EABB2A99 /* VLParametricBoundary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLParametricBoundary.m; path = VinliSDK/VLParametricBoundary.m; sourceTree = "<group>"; };
+		6D55A916EF4327C06505119971D68BA4 /* VLTrip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLTrip.h; path = VinliSDK/VLTrip.h; sourceTree = "<group>"; };
+		6E5B36A1EA3AC0FBD3544D834335EF19 /* VLPolygonBoundary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLPolygonBoundary.m; path = VinliSDK/VLPolygonBoundary.m; sourceTree = "<group>"; };
+		772505F6DB0E29F9752AE56FF4F00053 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Contents.json; path = VinliBluetooth/UI/images.xcassets/vinli_icon.imageset/Contents.json; sourceTree = "<group>"; };
+		799764BF27D157DE7600815072B0E217 /* images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = VinliBluetooth/UI/images.xcassets; sourceTree = "<group>"; };
+		7BEB7B8B5C35EA52D8BCF6C39D8A6D8F /* VLRequestHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLRequestHeader.h; path = VinliSDK/VLRequestHeader.h; sourceTree = "<group>"; };
+		7C797231D87970B8C894641C878463E5 /* VNLDevicePickerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VNLDevicePickerTableViewCell.m; path = VinliBluetooth/UI/VNLDevicePickerTableViewCell.m; sourceTree = "<group>"; };
+		806A474E736FD46A7A81F345ABC97907 /* VinliBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VinliBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		842F78A9230BC8CAC0F1CB5BFFC16462 /* VLLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLLocation.h; path = VinliSDK/VLLocation.h; sourceTree = "<group>"; };
+		858F7B5A3B75FCDB3B655AF82832D39A /* VLEventPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLEventPager.h; path = VinliSDK/VLEventPager.h; sourceTree = "<group>"; };
+		886895DCDCEA8351D4EF4F58F1AFE812 /* VinliBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VinliBluetooth.xcconfig; sourceTree = "<group>"; };
+		8ADBD8A834E1AAE99DE6BD6AE14E3DE6 /* VLRule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLRule.m; path = VinliSDK/VLRule.m; sourceTree = "<group>"; };
+		8CF41193E06E6E5C83C708C4FA0A5EE2 /* VLSubscriptionPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLSubscriptionPager.h; path = VinliSDK/VLSubscriptionPager.h; sourceTree = "<group>"; };
+		9025FF34678B8CB59C3085DA4D11D65D /* VNLDevicePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VNLDevicePickerViewController.m; path = VinliBluetooth/UI/VNLDevicePickerViewController.m; sourceTree = "<group>"; };
+		938C0D8CACFAF3CC0F127F5A1F7F23CA /* VinliSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VinliSDK.h; path = VinliSDK/VinliSDK.h; sourceTree = "<group>"; };
+		96743B6B5A62CB021F5F68BC439A1BC2 /* VLNotificationPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLNotificationPager.m; path = VinliSDK/VLNotificationPager.m; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9B52B1EF21E6711E28A35A051FB33EF8 /* VLTrip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLTrip.m; path = VinliSDK/VLTrip.m; sourceTree = "<group>"; };
+		9B7B09BE33F3E42E0A6F99258FDC3FD5 /* VinliNet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VinliNet-dummy.m"; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A6BF10D6E9EA18F86341B9DA3C8C768B /* VLNotificationPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLNotificationPager.h; path = VinliSDK/VLNotificationPager.h; sourceTree = "<group>"; };
+		A79D5B5CF8B2B1EF3440CD386CAD08B4 /* VLRulePager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLRulePager.m; path = VinliSDK/VLRulePager.m; sourceTree = "<group>"; };
+		A7B46FEC46D700B922B2CC8C3DD53E33 /* VLChronoPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLChronoPager.h; path = VinliSDK/VLChronoPager.h; sourceTree = "<group>"; };
+		A84AC68FE64CF37F1D5EB1156BA4B73C /* VLRulePager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLRulePager.h; path = VinliSDK/VLRulePager.h; sourceTree = "<group>"; };
+		A891AE4D902CF3E0BA8582FB63BB1BB4 /* VLTelemetryMessagePager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLTelemetryMessagePager.m; path = VinliSDK/VLTelemetryMessagePager.m; sourceTree = "<group>"; };
+		AEE8B3DD9C4C33EB4C61B8DCA7B7F8E8 /* VLTelemetryMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLTelemetryMessage.m; path = VinliSDK/VLTelemetryMessage.m; sourceTree = "<group>"; };
+		B0BAEF56824741AE76813106E4141FDB /* VNLDevicePickerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VNLDevicePickerTableViewCell.h; path = VinliBluetooth/UI/VNLDevicePickerTableViewCell.h; sourceTree = "<group>"; };
+		B2434BDD97BA62FEBD7DB02469FB35AE /* VLDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLDevice.m; path = VinliSDK/VLDevice.m; sourceTree = "<group>"; };
+		B422B75EB337A3EF39B838064F8D26BE /* VinliNet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VinliNet.xcconfig; sourceTree = "<group>"; };
+		B4666F2247F6C515886C9120081F3693 /* VLRequestHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLRequestHeader.m; path = VinliSDK/VLRequestHeader.m; sourceTree = "<group>"; };
+		B85DE402EE885C79EB2B19808CD62371 /* VLSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLSnapshot.m; path = VinliSDK/VLSnapshot.m; sourceTree = "<group>"; };
+		B8EC90EA822A7ED859FDBEC304B8DEFB /* VLOffsetPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLOffsetPager.m; path = VinliSDK/VLOffsetPager.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEF47CD07A3BBD57271D6301CA8D10A6 /* NSDictionary+NonNullable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+NonNullable.m"; path = "VinliSDK/NSDictionary+NonNullable.m"; sourceTree = "<group>"; };
+		C101230C197551E04B58580581F61DFF /* VLRadiusBoundary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLRadiusBoundary.h; path = VinliSDK/VLRadiusBoundary.h; sourceTree = "<group>"; };
+		C2D4BB433CB0F13467DD9D70AB1BCE00 /* VLService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLService.m; path = VinliSDK/VLService.m; sourceTree = "<group>"; };
+		C3331ED284CC1D041898F1C408D6A05A /* VNLProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VNLProperties.m; path = VinliBluetooth/VNLProperties.m; sourceTree = "<group>"; };
+		C42DBB129C9B17AF83276C5971698A20 /* VLTripPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLTripPager.h; path = VinliSDK/VLTripPager.h; sourceTree = "<group>"; };
+		C7D843DEDD93EE6F845139999104C7A0 /* VLService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLService.h; path = VinliSDK/VLService.h; sourceTree = "<group>"; };
+		CA117A46DDEF5AE8652DF6F27D05DFBF /* VLPolygonBoundary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLPolygonBoundary.h; path = VinliSDK/VLPolygonBoundary.h; sourceTree = "<group>"; };
+		CA59ABDCBED6213D3A700A578D723828 /* Vinli.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Vinli.storyboard; path = VinliBluetooth/UI/Vinli.storyboard; sourceTree = "<group>"; };
+		CE098FA1B9BEE37A5FC8B72A732603D6 /* VLLoginButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLLoginButton.m; path = VinliSDK/VLLoginButton.m; sourceTree = "<group>"; };
+		CF096EE16C3ED7D87A41E19EC6083915 /* VLDevicePager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLDevicePager.h; path = VinliSDK/VLDevicePager.h; sourceTree = "<group>"; };
+		CF80622856E925A8DDB29599533C880E /* VLLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLLoginViewController.h; path = VinliSDK/VLLoginViewController.h; sourceTree = "<group>"; };
+		D0DA8178D1BF39D862341B803F90DEAB /* VLLoginButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLLoginButton.h; path = VinliSDK/VLLoginButton.h; sourceTree = "<group>"; };
+		D0F983FE6FFABEBB35BA3CE76ADBBC83 /* JCDHTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCDHTTPConnection.h; path = VinliSDK/JCDHTTPConnection.h; sourceTree = "<group>"; };
+		D23F38C5BCEC94C0352AAFAA25CFA85B /* VLNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLNotification.h; path = VinliSDK/VLNotification.h; sourceTree = "<group>"; };
+		D2509207B517FC94C57BA34ECDE3D65D /* VLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLSessionManager.m; path = VinliSDK/VLSessionManager.m; sourceTree = "<group>"; };
+		D31956168C343E32DC597DD2B1986DE0 /* VLSubscriptionPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLSubscriptionPager.m; path = VinliSDK/VLSubscriptionPager.m; sourceTree = "<group>"; };
+		D3E9110679C45B8C0A06F9A40E7E51CF /* VLVehicle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLVehicle.h; path = VinliSDK/VLVehicle.h; sourceTree = "<group>"; };
+		D6F4ADD3FBB3BF6AABA6D95DC412F9C7 /* VLSnapshotPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLSnapshotPager.m; path = VinliSDK/VLSnapshotPager.m; sourceTree = "<group>"; };
+		D91899BCE0A578DADBD7BAB5D70D8BB3 /* VNLDeviceObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VNLDeviceObserving.h; path = VinliBluetooth/VNLDeviceObserving.h; sourceTree = "<group>"; };
+		D95E39AD11813D58097285B831331645 /* VinliBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VinliBluetooth.h; path = VinliBluetooth/VinliBluetooth.h; sourceTree = "<group>"; };
+		D9D330A5B3E95A7086AC6EE1E0CF4741 /* VLDevicePager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLDevicePager.m; path = VinliSDK/VLDevicePager.m; sourceTree = "<group>"; };
+		DC382F9D2BBCFE272CCB636E0C196178 /* VLTelemetryMessagePager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLTelemetryMessagePager.h; path = VinliSDK/VLTelemetryMessagePager.h; sourceTree = "<group>"; };
+		DC5BFDAC0B9ED1EFC090D92E27558904 /* VLUserCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLUserCache.m; path = VinliSDK/VLUserCache.m; sourceTree = "<group>"; };
+		DD58BBAA67989B857A606E5E710FCFE9 /* VNLDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VNLDevice.m; path = VinliBluetooth/VNLDevice.m; sourceTree = "<group>"; };
+		DD80C4BBD67037327B8E5620BDDB9EE3 /* VLChronoPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLChronoPager.m; path = VinliSDK/VLChronoPager.m; sourceTree = "<group>"; };
+		DE423222986C0AB8BEA1ACFD6BF7539C /* VLUrlParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLUrlParser.m; path = VinliSDK/VLUrlParser.m; sourceTree = "<group>"; };
+		E139CF6F9A80FF7C8A76C6FFD8406552 /* VLPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLPager.h; path = VinliSDK/VLPager.h; sourceTree = "<group>"; };
+		E2544AEDE7FF9E5190AAFCD2B6F8D67F /* VLLocationPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLLocationPager.m; path = VinliSDK/VLLocationPager.m; sourceTree = "<group>"; };
+		E80DD1D29879EA084DDAEC9027EEE050 /* VNLDevicePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VNLDevicePickerViewController.h; path = VinliBluetooth/UI/VNLDevicePickerViewController.h; sourceTree = "<group>"; };
+		ED1C71BEB4F834F9B26AE26C0C354567 /* VLVehiclePager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLVehiclePager.h; path = VinliSDK/VLVehiclePager.h; sourceTree = "<group>"; };
+		EE0EE15E57132E3E6E6876A2D3B4F938 /* VLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLSession.m; path = VinliSDK/VLSession.m; sourceTree = "<group>"; };
+		EF2BB9560520337EF83522C7746B4B69 /* VLVehicle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLVehicle.m; path = VinliSDK/VLVehicle.m; sourceTree = "<group>"; };
+		EF93464E7B90A7E0A362836273DD04FA /* VNLPID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VNLPID.m; path = VinliBluetooth/VNLPID.m; sourceTree = "<group>"; };
+		EFD51DA4091FAAAA033179878E62AE1D /* VLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLSessionManager.h; path = VinliSDK/VLSessionManager.h; sourceTree = "<group>"; };
+		F0BED2DE96B0923156583FA2857720FA /* VNLDeviceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VNLDeviceManager.m; path = VinliBluetooth/VNLDeviceManager.m; sourceTree = "<group>"; };
+		F22144E82230B42E2A56FFA630935DC1 /* NSString+Random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Random.h"; path = "VinliSDK/NSString+Random.h"; sourceTree = "<group>"; };
+		F222FD4258496EF9F679CCDDDBB7BCED /* VLTelemetryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLTelemetryMessage.h; path = VinliSDK/VLTelemetryMessage.h; sourceTree = "<group>"; };
+		F538A03E54F87B015027497B2A1B1974 /* VLUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLUser.m; path = VinliSDK/VLUser.m; sourceTree = "<group>"; };
+		F55C63F38DE5C710D46059C6760E3095 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = Contents.json; path = VinliBluetooth/UI/images.xcassets/default_icon.imageset/Contents.json; sourceTree = "<group>"; };
+		F74C17AA4EA57A4B680C6C4220E82454 /* VinliNet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VinliNet-prefix.pch"; sourceTree = "<group>"; };
+		F959D579CA9806278262E3BF79C16104 /* VLSubscription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLSubscription.m; path = VinliSDK/VLSubscription.m; sourceTree = "<group>"; };
+		FA3FF8A70F6F4F6356825B7BC188E3AE /* VLRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLRule.h; path = VinliSDK/VLRule.h; sourceTree = "<group>"; };
+		FB4883608D5C3ACD86651B66BB712D62 /* VLEventPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VLEventPager.m; path = VinliSDK/VLEventPager.m; sourceTree = "<group>"; };
+		FE05ACC3E9AD031A7D55500B8D0DE885 /* WhitneyHTF-Medium.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "WhitneyHTF-Medium.otf"; path = "VinliBluetooth/UI/WhitneyHTF-Medium.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EA3657AE14987A50E2E7B2BD0504ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E413591A99BBD5261DD30433C0132A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADFC98CAE5BB18C41DD35803CDC862F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7250F3CFF987FC78ED8CE4D41F1CD48E /* CoreBluetooth.framework in Frameworks */,
+				3F71C061B57984BEA40E54C97D59B422 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8875B4B5A09EF8F2587272D373CC2BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84526B80B72178DA4D886243AF4ADEA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0AC8CF4D8BCE344EE092E129E89C89CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA7A6F93F15295502BDD528A95B8D59E /* VinliBluetooth */,
+				FC7ECEB8434DB1ADFEDF720F02026204 /* VinliNet */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848E9F7290E8287ED50D07E9DAF7EA84 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5327ECE3474FBF1C1AB3D1B3D541A4FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287CA1CEFD9D5085BF824FD1C6B859BF /* libPods.a */,
+				1106C75A37EB0013BB9C2A72B061C4B7 /* libVinliBluetooth.a */,
+				6428FBF530CCE36DD3DF15B6A4DC952C /* libVinliNet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D1976C989D03D5ADE8F651090CD206 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				772505F6DB0E29F9752AE56FF4F00053 /* Contents.json */,
+				F55C63F38DE5C710D46059C6760E3095 /* Contents.json */,
+				4B2E112E235F3DC530BE469F95E257C5 /* Contents.json */,
+				28E55E50F4E16BB909E2EDFAD8409FFE /* Contents.json */,
+				799764BF27D157DE7600815072B0E217 /* images.xcassets */,
+				68A8CA1017ADEE82CBD11F4F0E0B76BF /* pids.json */,
+				CA59ABDCBED6213D3A700A578D723828 /* Vinli.storyboard */,
+				48063FD86DF2D471E0B176085DD0DF7D /* WhitneyHTF-Light.otf */,
+				FE05ACC3E9AD031A7D55500B8D0DE885 /* WhitneyHTF-Medium.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0AC8CF4D8BCE344EE092E129E89C89CE /* Pods */,
+				5327ECE3474FBF1C1AB3D1B3D541A4FB /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848E9F7290E8287ED50D07E9DAF7EA84 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */,
+				45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		85260D0164A0D6D8B8CA303E9E453BA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B422B75EB337A3EF39B838064F8D26BE /* VinliNet.xcconfig */,
+				9B7B09BE33F3E42E0A6F99258FDC3FD5 /* VinliNet-dummy.m */,
+				F74C17AA4EA57A4B680C6C4220E82454 /* VinliNet-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VinliNet";
+			sourceTree = "<group>";
+		};
+		9469CF81BA640950C10CD7C619E0A921 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				886895DCDCEA8351D4EF4F58F1AFE812 /* VinliBluetooth.xcconfig */,
+				0E915AF3CE61BF016D08932A1AA298DA /* VinliBluetooth-dummy.m */,
+				806A474E736FD46A7A81F345ABC97907 /* VinliBluetooth-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VinliBluetooth";
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BA7A6F93F15295502BDD528A95B8D59E /* VinliBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				D95E39AD11813D58097285B831331645 /* VinliBluetooth.h */,
+				4ED57EECE3877012CDC5A975C263AABF /* VNLDevice.h */,
+				DD58BBAA67989B857A606E5E710FCFE9 /* VNLDevice.m */,
+				2FC3CE692475E89BF9D8F38EDBC8F439 /* VNLDeviceManager.h */,
+				F0BED2DE96B0923156583FA2857720FA /* VNLDeviceManager.m */,
+				D91899BCE0A578DADBD7BAB5D70D8BB3 /* VNLDeviceObserving.h */,
+				B0BAEF56824741AE76813106E4141FDB /* VNLDevicePickerTableViewCell.h */,
+				7C797231D87970B8C894641C878463E5 /* VNLDevicePickerTableViewCell.m */,
+				E80DD1D29879EA084DDAEC9027EEE050 /* VNLDevicePickerViewController.h */,
+				9025FF34678B8CB59C3085DA4D11D65D /* VNLDevicePickerViewController.m */,
+				5FB12F4A46770B724BD60F4A73AA81CC /* VNLPID.h */,
+				EF93464E7B90A7E0A362836273DD04FA /* VNLPID.m */,
+				4C08F5C0A93B8D080E2D50D949E306DE /* VNLProperties.h */,
+				C3331ED284CC1D041898F1C408D6A05A /* VNLProperties.m */,
+				68D1976C989D03D5ADE8F651090CD206 /* Resources */,
+				9469CF81BA640950C10CD7C619E0A921 /* Support Files */,
+			);
+			path = VinliBluetooth;
+			sourceTree = "<group>";
+		};
+		FC7ECEB8434DB1ADFEDF720F02026204 /* VinliNet */ = {
+			isa = PBXGroup;
+			children = (
+				D0F983FE6FFABEBB35BA3CE76ADBBC83 /* JCDHTTPConnection.h */,
+				61A27FCED355A216424BF274220AC782 /* JCDHTTPConnection.m */,
+				41E33893D785F79BCCC52B7C72378E24 /* NSDictionary+NonNullable.h */,
+				BEF47CD07A3BBD57271D6301CA8D10A6 /* NSDictionary+NonNullable.m */,
+				F22144E82230B42E2A56FFA630935DC1 /* NSString+Random.h */,
+				1856B0A1DB63E34753697879023BB67F /* NSString+Random.m */,
+				938C0D8CACFAF3CC0F127F5A1F7F23CA /* VinliSDK.h */,
+				40A596195A1733DFA4E559B5C7073FC8 /* VLBoundary.h */,
+				56FEF2BC70AC2BE3E8A8E6CF9C609170 /* VLBoundary.m */,
+				A7B46FEC46D700B922B2CC8C3DD53E33 /* VLChronoPager.h */,
+				DD80C4BBD67037327B8E5620BDDB9EE3 /* VLChronoPager.m */,
+				32943B806A5DA689D76D2ADB726E92E1 /* VLDevice.h */,
+				B2434BDD97BA62FEBD7DB02469FB35AE /* VLDevice.m */,
+				CF096EE16C3ED7D87A41E19EC6083915 /* VLDevicePager.h */,
+				D9D330A5B3E95A7086AC6EE1E0CF4741 /* VLDevicePager.m */,
+				4E6C17AC9AC1D958427DC40A18B5E57B /* VLEvent.h */,
+				1F73B1169FCB45E7F018FAEFFE532030 /* VLEvent.m */,
+				858F7B5A3B75FCDB3B655AF82832D39A /* VLEventPager.h */,
+				FB4883608D5C3ACD86651B66BB712D62 /* VLEventPager.m */,
+				842F78A9230BC8CAC0F1CB5BFFC16462 /* VLLocation.h */,
+				35AD1386123D9BA77A739AB4752D22B6 /* VLLocation.m */,
+				6AD9351139C1027BB409A72C8A7E3D2F /* VLLocationPager.h */,
+				E2544AEDE7FF9E5190AAFCD2B6F8D67F /* VLLocationPager.m */,
+				D0DA8178D1BF39D862341B803F90DEAB /* VLLoginButton.h */,
+				CE098FA1B9BEE37A5FC8B72A732603D6 /* VLLoginButton.m */,
+				CF80622856E925A8DDB29599533C880E /* VLLoginViewController.h */,
+				272D313B0C3A2868C9F25F41580A8226 /* VLLoginViewController.m */,
+				D23F38C5BCEC94C0352AAFAA25CFA85B /* VLNotification.h */,
+				2616AC92D81930CDDB20FAC7C65B41EE /* VLNotification.m */,
+				A6BF10D6E9EA18F86341B9DA3C8C768B /* VLNotificationPager.h */,
+				96743B6B5A62CB021F5F68BC439A1BC2 /* VLNotificationPager.m */,
+				50179878DD7FD6D50BD90DE226662465 /* VLObjectRef.h */,
+				0E75ACFB2D02A9E4C86BDD957D7C35BD /* VLObjectRef.m */,
+				174605D067DF7569FCDBFF7D5EAD1E1E /* VLOffsetPager.h */,
+				B8EC90EA822A7ED859FDBEC304B8DEFB /* VLOffsetPager.m */,
+				E139CF6F9A80FF7C8A76C6FFD8406552 /* VLPager.h */,
+				35B25378AD675816C49D196D6A2720BC /* VLPager.m */,
+				2AAAE637B591626F121940CA7E0ACAE1 /* VLParametricBoundary.h */,
+				6C2F2E0CA314D2B8887A1F55EABB2A99 /* VLParametricBoundary.m */,
+				CA117A46DDEF5AE8652DF6F27D05DFBF /* VLPolygonBoundary.h */,
+				6E5B36A1EA3AC0FBD3544D834335EF19 /* VLPolygonBoundary.m */,
+				C101230C197551E04B58580581F61DFF /* VLRadiusBoundary.h */,
+				091AB1402A21A6D82CF68E6937873D36 /* VLRadiusBoundary.m */,
+				7BEB7B8B5C35EA52D8BCF6C39D8A6D8F /* VLRequestHeader.h */,
+				B4666F2247F6C515886C9120081F3693 /* VLRequestHeader.m */,
+				FA3FF8A70F6F4F6356825B7BC188E3AE /* VLRule.h */,
+				8ADBD8A834E1AAE99DE6BD6AE14E3DE6 /* VLRule.m */,
+				A84AC68FE64CF37F1D5EB1156BA4B73C /* VLRulePager.h */,
+				A79D5B5CF8B2B1EF3440CD386CAD08B4 /* VLRulePager.m */,
+				C7D843DEDD93EE6F845139999104C7A0 /* VLService.h */,
+				C2D4BB433CB0F13467DD9D70AB1BCE00 /* VLService.m */,
+				32DCB353D71774E2D1A08D8FDEF9A759 /* VLSession.h */,
+				EE0EE15E57132E3E6E6876A2D3B4F938 /* VLSession.m */,
+				EFD51DA4091FAAAA033179878E62AE1D /* VLSessionManager.h */,
+				D2509207B517FC94C57BA34ECDE3D65D /* VLSessionManager.m */,
+				17D6136E81FB0443051B93B94038E1C9 /* VLSnapshot.h */,
+				B85DE402EE885C79EB2B19808CD62371 /* VLSnapshot.m */,
+				0491BBE6671FC7AB6C71AFBFBB96CF47 /* VLSnapshotPager.h */,
+				D6F4ADD3FBB3BF6AABA6D95DC412F9C7 /* VLSnapshotPager.m */,
+				5CB209DEB1DC3008B9F331C33DD920C3 /* VLSubscription.h */,
+				F959D579CA9806278262E3BF79C16104 /* VLSubscription.m */,
+				8CF41193E06E6E5C83C708C4FA0A5EE2 /* VLSubscriptionPager.h */,
+				D31956168C343E32DC597DD2B1986DE0 /* VLSubscriptionPager.m */,
+				F222FD4258496EF9F679CCDDDBB7BCED /* VLTelemetryMessage.h */,
+				AEE8B3DD9C4C33EB4C61B8DCA7B7F8E8 /* VLTelemetryMessage.m */,
+				DC382F9D2BBCFE272CCB636E0C196178 /* VLTelemetryMessagePager.h */,
+				A891AE4D902CF3E0BA8582FB63BB1BB4 /* VLTelemetryMessagePager.m */,
+				6D55A916EF4327C06505119971D68BA4 /* VLTrip.h */,
+				9B52B1EF21E6711E28A35A051FB33EF8 /* VLTrip.m */,
+				C42DBB129C9B17AF83276C5971698A20 /* VLTripPager.h */,
+				64D57076C79FF7F6813FEE56647AD3DD /* VLTripPager.m */,
+				11AC74B2A461F7DC2A0FE5A2F86882CC /* VLUrlParser.h */,
+				DE423222986C0AB8BEA1ACFD6BF7539C /* VLUrlParser.m */,
+				478F7D4E5CAC09901138721B869EF53C /* VLUser.h */,
+				F538A03E54F87B015027497B2A1B1974 /* VLUser.m */,
+				024365EF93CB90C26EF72F9998F9FC75 /* VLUserCache.h */,
+				DC5BFDAC0B9ED1EFC090D92E27558904 /* VLUserCache.m */,
+				D3E9110679C45B8C0A06F9A40E7E51CF /* VLVehicle.h */,
+				EF2BB9560520337EF83522C7746B4B69 /* VLVehicle.m */,
+				ED1C71BEB4F834F9B26AE26C0C354567 /* VLVehiclePager.h */,
+				5EB50DADBEC33421E9D60EE0117720E6 /* VLVehiclePager.m */,
+				85260D0164A0D6D8B8CA303E9E453BA6 /* Support Files */,
+			);
+			path = VinliNet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AAE155299288521973AD0ADE5AA4CB2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8AD312F8D5A1F0A6F4A2F87218311 /* VinliBluetooth.h in Headers */,
+				C4027EEE19D963F7F2C530B82DE2B5E6 /* VNLDevice.h in Headers */,
+				80A3E10FE124AAB11E281AF82B8152DB /* VNLDeviceManager.h in Headers */,
+				1D14129CF576C84CB0F4EA2F7C997FFC /* VNLDeviceObserving.h in Headers */,
+				F76947541FEBC0192044B8B47463DCC8 /* VNLDevicePickerTableViewCell.h in Headers */,
+				8F5FDE7A681AA9B1D7CD3C717E0B9E16 /* VNLDevicePickerViewController.h in Headers */,
+				AAB058B960B5B3DE4BACC3CE83AD75A2 /* VNLPID.h in Headers */,
+				4D291FFB3499AB3E7ED67C57A7B64EB3 /* VNLProperties.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBF62BC3CB55BBF08E683D6B5C7D005 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474B894A65BF7755D02072C95DF4C609 /* JCDHTTPConnection.h in Headers */,
+				A43AAEA2994D259B9DC3B7E07F453FF1 /* NSDictionary+NonNullable.h in Headers */,
+				2BFC2653A9170CBF31470AEFAB72D544 /* NSString+Random.h in Headers */,
+				FF95090E5BC0B36D80E694ED5F8C676A /* VinliSDK.h in Headers */,
+				534C544B959BE06E2543FBB613EF37AD /* VLBoundary.h in Headers */,
+				AC72441EE474616969A9517EB815CD7C /* VLChronoPager.h in Headers */,
+				FBC1CB3EF988C7E6815B864DE2A94845 /* VLDevice.h in Headers */,
+				A8422685946AD6161FE4F2CA16256C4C /* VLDevicePager.h in Headers */,
+				F80FFF0BDBD6FF741B88348F2D1E1447 /* VLEvent.h in Headers */,
+				FE373B9731139D9F50D7FC1D45961105 /* VLEventPager.h in Headers */,
+				5642A76366D67BC14AE9D8223D6B6C93 /* VLLocation.h in Headers */,
+				4227517D6085F290896414942686CC77 /* VLLocationPager.h in Headers */,
+				8FD2FB718B3468D35539F225887A60B7 /* VLLoginButton.h in Headers */,
+				96D0B26404FCFF3FABE9EFA312614D34 /* VLLoginViewController.h in Headers */,
+				96F9119ED9F2183B7281B4632CD90B08 /* VLNotification.h in Headers */,
+				62E2C836F254466B699E85923BC52FD3 /* VLNotificationPager.h in Headers */,
+				B27D0CB713C370E8D64286060C085CD7 /* VLObjectRef.h in Headers */,
+				87207A87FAE1580B3CBC4864E1D463D4 /* VLOffsetPager.h in Headers */,
+				A08EA1EB4E092ABA972C3D053D050EE3 /* VLPager.h in Headers */,
+				65D057B7A3020BC0EC3AE390FCF4EB32 /* VLParametricBoundary.h in Headers */,
+				FC7E80CDC985E5CA5AEC3A99AB94E685 /* VLPolygonBoundary.h in Headers */,
+				E8F1C705176C68101078DD3D43DBACE4 /* VLRadiusBoundary.h in Headers */,
+				513DE5439BC3E0225C3A6FC0EB283287 /* VLRequestHeader.h in Headers */,
+				D323772DECB534C67400B5FF95844955 /* VLRule.h in Headers */,
+				23772609A5A7B6161AF00786EBF89423 /* VLRulePager.h in Headers */,
+				FD15FBEFE4D68BB9486FEFB3214600AC /* VLService.h in Headers */,
+				BE126A734CD2F5F80E3C65B1D332B0BA /* VLSession.h in Headers */,
+				236093C9F81DB85500E9067A6449EF5B /* VLSessionManager.h in Headers */,
+				AF8B93C347B20A889497D75EF6BC2396 /* VLSnapshot.h in Headers */,
+				4494CC4C6F3ECCC13E34D3B6882021FF /* VLSnapshotPager.h in Headers */,
+				A53571446C5EF37500D8C92D42F82B9B /* VLSubscription.h in Headers */,
+				CA29DDBCC0791507BF8EDDCD6E0CF047 /* VLSubscriptionPager.h in Headers */,
+				F7C23605C3E70D6A270F227DC1574AAA /* VLTelemetryMessage.h in Headers */,
+				48385338ADDCBBF423F0021C14D74C75 /* VLTelemetryMessagePager.h in Headers */,
+				1481D571C6C291C0109CC82D9929DA16 /* VLTrip.h in Headers */,
+				76F506EECE429EFAA466FA38C9265626 /* VLTripPager.h in Headers */,
+				F3C0B14B3FF23658CE8250757C177915 /* VLUrlParser.h in Headers */,
+				1A2A77A7C2682952F727DC61BA833B01 /* VLUser.h in Headers */,
+				B317342B61CEB8A8EA0552CA8DCE15B2 /* VLUserCache.h in Headers */,
+				A11CC9B79CAFC76B5F8E358BCFD10DEA /* VLVehicle.h in Headers */,
+				940F9F60013F5C69CC3CB54D17FF817B /* VLVehiclePager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0404938F2494C75444085C4432E5FBEA /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FF017CD736510D6A6E6A082D56500C /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				785B99D2F78AFE813778CC4E1A2192A5 /* Sources */,
+				8875B4B5A09EF8F2587272D373CC2BD9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC3D7868B9A1AFAC51E40885B22FD0E /* PBXTargetDependency */,
+				ECD1D3EC883A687553C81C0E6261657F /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 287CA1CEFD9D5085BF824FD1C6B859BF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3F767B1B3C9FCFF89162C8A7AA286F62 /* VinliBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CCD16EA44411F24D55FDF601172D26 /* Build configuration list for PBXNativeTarget "VinliBluetooth" */;
+			buildPhases = (
+				183B7575CE7AB3A26E050C49D1B0F7E6 /* Sources */,
+				6ADFC98CAE5BB18C41DD35803CDC862F /* Frameworks */,
+				AAE155299288521973AD0ADE5AA4CB2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9483E45049667C97FC9339FFED0122 /* PBXTargetDependency */,
+			);
+			name = VinliBluetooth;
+			productName = VinliBluetooth;
+			productReference = 1106C75A37EB0013BB9C2A72B061C4B7 /* libVinliBluetooth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F803C2D02364541FF671A3A9398BF01A /* VinliNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6738521AEA4970E2E3E6BD9D08DF3CA8 /* Build configuration list for PBXNativeTarget "VinliNet" */;
+			buildPhases = (
+				8F693E430E0C0160809F5C71E8E76876 /* Sources */,
+				3EA3657AE14987A50E2E7B2BD0504ABF /* Frameworks */,
+				BCBF62BC3CB55BBF08E683D6B5C7D005 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinliNet;
+			productName = VinliNet;
+			productReference = 6428FBF530CCE36DD3DF15B6A4DC952C /* libVinliNet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5327ECE3474FBF1C1AB3D1B3D541A4FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0404938F2494C75444085C4432E5FBEA /* Pods */,
+				3F767B1B3C9FCFF89162C8A7AA286F62 /* VinliBluetooth */,
+				F803C2D02364541FF671A3A9398BF01A /* VinliNet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183B7575CE7AB3A26E050C49D1B0F7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784A84E6C7F268C74BD8F7095048957 /* VinliBluetooth-dummy.m in Sources */,
+				C384FF1E2E51866AEB23860586A34F91 /* VNLDevice.m in Sources */,
+				90E19BF8A0A2CF9C0AD08C39B348FB11 /* VNLDeviceManager.m in Sources */,
+				64C11943E52D5F1B3443928CCFB559DF /* VNLDevicePickerTableViewCell.m in Sources */,
+				3FFE660484770E54EDBCF8CFF01FB2AA /* VNLDevicePickerViewController.m in Sources */,
+				6A4255D2863466AC8313AEC4E1781016 /* VNLPID.m in Sources */,
+				52F6B2E6656E8AFB33E935479B241255 /* VNLProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785B99D2F78AFE813778CC4E1A2192A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0741F0595C445419659521D53CCCDA /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F693E430E0C0160809F5C71E8E76876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA8757A3A6CC4F20F3E6537647F72A9 /* JCDHTTPConnection.m in Sources */,
+				F6C143ECAF07C1F58E32D5834492EF92 /* NSDictionary+NonNullable.m in Sources */,
+				2D995854CE4E4EE652FB0C284DF3FBE0 /* NSString+Random.m in Sources */,
+				F4290F7D88197F91A676CE0DA0D2559B /* VinliNet-dummy.m in Sources */,
+				483E0C6E51D7D2D7FB310010C60FBE09 /* VLBoundary.m in Sources */,
+				37C107C46A5F46A4AB0525910081D9BB /* VLChronoPager.m in Sources */,
+				19D9BA86CA505B08052B09A81CCAF45E /* VLDevice.m in Sources */,
+				7F910E00413C53B97FE3CBB3F346905E /* VLDevicePager.m in Sources */,
+				2A5ACB6910CD0744F1787867B0FF8073 /* VLEvent.m in Sources */,
+				20F391B466F69D75DC7D336D21251F5C /* VLEventPager.m in Sources */,
+				33F3E8A99FF780A6D95DB4E3F6651337 /* VLLocation.m in Sources */,
+				3172CDC707D711669CDAFF6A44DE40A3 /* VLLocationPager.m in Sources */,
+				1CC140286BC90C8A3D748177A1B5F706 /* VLLoginButton.m in Sources */,
+				5D0C7EB2861E805254CA5A2BA79283AA /* VLLoginViewController.m in Sources */,
+				AFE27EF5D9F67257ECF7C86D6E1F698A /* VLNotification.m in Sources */,
+				04ABE901FA11416D996E8813982B2C18 /* VLNotificationPager.m in Sources */,
+				AF93859FB14CE8BDB747ACC91105D11A /* VLObjectRef.m in Sources */,
+				555D09A0A3B1C6EB7542AE0CDED64C31 /* VLOffsetPager.m in Sources */,
+				4E14C7E3802FA5AC61D0E2F2A148EE6F /* VLPager.m in Sources */,
+				5EB2BA3C111AB371EF83863995E0A06F /* VLParametricBoundary.m in Sources */,
+				45C18E12330C4BAD3EE56E2E78B1D1FE /* VLPolygonBoundary.m in Sources */,
+				1B6233D4380A5D9BC9DEDF0C0024B47F /* VLRadiusBoundary.m in Sources */,
+				508706858D6F5D6C0AF5E4A2542835E2 /* VLRequestHeader.m in Sources */,
+				C4F67668B86F425917B1131545913021 /* VLRule.m in Sources */,
+				D9C15939FBFED969A0F1AE9E8A3FA359 /* VLRulePager.m in Sources */,
+				AEC8EF3901345DB9F14C1D1F82D1835D /* VLService.m in Sources */,
+				7841D758091FA4215D8FD2E0CC70407C /* VLSession.m in Sources */,
+				41EEB8F4213A37E9A426B3ED5B43B5FA /* VLSessionManager.m in Sources */,
+				D6DA21CF571ED9DCD2680BAEDD1762AE /* VLSnapshot.m in Sources */,
+				A9B3AC7F10863AE9C2B9959A671DAE89 /* VLSnapshotPager.m in Sources */,
+				37F9B06B3E744644D94DFC21ADEE188C /* VLSubscription.m in Sources */,
+				1FC1E4E948CEB75519B9B3F7E5D1EEC9 /* VLSubscriptionPager.m in Sources */,
+				B7C6F51FE280889DC8DE28BAC1EC252D /* VLTelemetryMessage.m in Sources */,
+				1354F304EC3E57F0A1678FF4FE3075C6 /* VLTelemetryMessagePager.m in Sources */,
+				329597F7024328F7F1BC28B82E1C51A2 /* VLTrip.m in Sources */,
+				B05849515C06DFD40ACE043F101A12BD /* VLTripPager.m in Sources */,
+				3636373FB4553A97C8A6216FBD6947E5 /* VLUrlParser.m in Sources */,
+				952D4E970BAB45CA001F18C918D7EAEE /* VLUser.m in Sources */,
+				F5374C68C5E4DB03102003AB1A9E71E0 /* VLUserCache.m in Sources */,
+				A95CDD28BD4EAFF190A4DD5EBBCF9F83 /* VLVehicle.m in Sources */,
+				26C38543D2EFCA93870F8209C101CDFE /* VLVehiclePager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEC3D7868B9A1AFAC51E40885B22FD0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VinliBluetooth;
+			target = 3F767B1B3C9FCFF89162C8A7AA286F62 /* VinliBluetooth */;
+			targetProxy = C37C747F8CDA84F7B9EB33C7CAB4E02A /* PBXContainerItemProxy */;
+		};
+		EA9483E45049667C97FC9339FFED0122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VinliNet;
+			target = F803C2D02364541FF671A3A9398BF01A /* VinliNet */;
+			targetProxy = FD1D5C95C4E50AF726E94F92B5C34C1D /* PBXContainerItemProxy */;
+		};
+		ECD1D3EC883A687553C81C0E6261657F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VinliNet;
+			target = F803C2D02364541FF671A3A9398BF01A /* VinliNet */;
+			targetProxy = C8785D0C788F576C52DB1FCB57CD9773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02CB6F7ECC6306A982CDCECDDF47ADA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2C4A3967D3845A929D5DF482EB56B660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B422B75EB337A3EF39B838064F8D26BE /* VinliNet.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VinliNet/VinliNet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38DF7BDA9A321EF714346E36901B958E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		70F4FA27C41C7CAC5A2EF37F93480960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886895DCDCEA8351D4EF4F58F1AFE812 /* VinliBluetooth.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VinliBluetooth/VinliBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FF054289888C872B2B4330B94FEA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886895DCDCEA8351D4EF4F58F1AFE812 /* VinliBluetooth.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VinliBluetooth/VinliBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A9E6FA49271D436666C543549DD02F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B422B75EB337A3EF39B838064F8D26BE /* VinliNet.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VinliNet/VinliNet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6738521AEA4970E2E3E6BD9D08DF3CA8 /* Build configuration list for PBXNativeTarget "VinliNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4A3967D3845A929D5DF482EB56B660 /* Debug */,
+				A9E6FA49271D436666C543549DD02F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FF017CD736510D6A6E6A082D56500C /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CB6F7ECC6306A982CDCECDDF47ADA6 /* Debug */,
+				38DF7BDA9A321EF714346E36901B958E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CCD16EA44411F24D55FDF601172D26 /* Build configuration list for PBXNativeTarget "VinliBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F4FA27C41C7CAC5A2EF37F93480960 /* Debug */,
+				92FF054289888C872B2B4330B94FEA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
